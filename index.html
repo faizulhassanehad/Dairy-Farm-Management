@@ -15,7 +15,53 @@
   <div class="d-flex justify-content-center start">
            <h1>COW SHED</h1>
   </div>
+  
+   <div class="container d-flex justify-content-center start ">
+    <form class="row g-3 ">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label">Shed Name</label>
+          <input type="text" class="form-control" id="validationDefault01" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault02" class="form-label">Shed Size</label>
+          <input type="text" class="form-control" id="validationDefault02" required>
+        </div>
+        <div class="col-md-3">
+            <label for="validationDefault04" class="form-label">Cow Capacity</label>
+            <select class="form-select" id="validationDefault04" required>
+              <option selected disabled value="">Choose</option>
+              <option>10</option>
+              <option>15</option>
+              <option>20</option>
+              <option>25</option>
+              <option>30</option>
 
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault04" class="form-label">Shed Type</label>
+            <select class="form-select" id="validationDefault04" required>
+              <option selected disabled value="">Choose</option>
+              <option>Cow'<script></script> Shed</option>
+              <option>Calves Shed</option>
+              </select>
+            
+            
+          </div>
+        
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+              Agree 
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Create Shed</button>
+        </div>
+      </form>
+   </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
 </body>
 </html>
